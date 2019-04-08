@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/CHL514/vue-admin-sys#readme",
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",

@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
 
-import './assets/css/body.css'
-import './assets/images/news.png'
-
-const root = document.createElement('div')
-document.body.append(root)
 new Vue({
+  el: '#app',
+  router,
   render: h => h(App)
-}).$mount(root)
+})
